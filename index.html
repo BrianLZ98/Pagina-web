@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Plate - Sitio Oficial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="bg-danger text-white text-center py-4">
+        <h1>River Plate</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="jugadoresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Jugadores
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="jugadoresDropdown">
+                                <li><a class="dropdown-item" href="#jugadores">Destacados</a></li>
+                                <li><a class="dropdown-item" href="#otros-jugadores">Otros</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trofeos">Trofeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ubicacion">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="historia" class="container my-5">
+        <h2 class="text-center mb-4">Historia del Club</h2>
+        <p>River Plate fue fundado el 25 de mayo de 1901 en Buenos Aires, Argentina. Desde sus inicios, el club se ha destacado como uno de los más exitosos y populares de Argentina y Sudamérica. Ha ganado un total de 38 títulos de liga y es conocido por su fútbol ofensivo y la formación de grandes talentos. A lo largo de los años, River Plate ha tenido una feroz rivalidad con Boca Juniors, en lo que se conoce como el "Superclásico".</p>
+        <p>El club ha logrado éxitos internacionales, incluyendo varias Copas Libertadores y una Copa Intercontinental, consolidando su estatus como uno de los gigantes del fútbol mundial. River Plate es también conocido por su estadio, el Estadio Monumental, que es el más grande de Argentina y ha sido sede de importantes eventos, incluyendo la final de la Copa del Mundo de 1978.</p>
+        <section id="superclasicos">
+            <h2>Historia de los Superclásicos</h2>
+            <section id="superclasicos" class="container my-5">
+                <h2 class="text-center mb-4"> Superclásicos</h2>
+                <p class="text-center">Los Superclásicos entre River Plate y Boca Juniors son uno de los encuentros más esperados y apasionantes del fútbol argentino. A continuación, exploramos algunos de los partidos más memorables y sus estadísticas.</p>
+                
+                <div class="row">
+                    <!-- Estadísticas del Superclásico -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Estadísticas del Superclásico</h5>
+                                <ul>
+                                    <li><strong>Total de Superclásicos:</strong> 262</li>
+                                    <li><strong>Victorias de River Plate:</strong> 86</li>
+                                    <li><strong>Victorias de Boca Juniors:</strong> 92</li>
+                                    <li><strong>Empates:</strong> 84</li>
+                                    <li><strong>Goleadores Históricos:</strong> Ángel Labruna (15 goles), Martín Palermo (9 goles)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Galería de Imágenes del Superclásico -->
+                    <div class="col-lg-6 mb-4">
+                        <h5 class="text-center">Galería de Imágenes</h5>
+                        <div id="carouselSuperclasico" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselSuperclasico" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#carouselSuperclasico" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#carouselSuperclasico" data-bs-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/imagenes/clasico.jpg" class="d-block w-100" alt="Superclásico 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Superclásico 1</h5>
+                                        <p>River le gano a Boca por 2 a 0 en lo que fue el superclasico del año 2023. El cual fue el ultimo disputado porel jugador Enzo Perez <p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/imagenes/clasico1.jpg" class="d-block w-100" alt="Superclásico 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Superclásico 2</h5>
+                                        <p>River venceria a boca en la ida de los octavos de final de la copa Libertadores 2015 con gol de Carlos Sanchez. Luego en esa copa River obtendria el titulo  .</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/imagenes/clasico2.jpg" class="d-block w-100" alt="Superclásico 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Superclásico 3</h5>
+                                        <p>Celebracion de Juan Fernando Quintero para el 2 a 1 parcial ante boca en la recordada final de la copa LIbertadores 2018 en Madrid.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselSuperclasico" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselSuperclasico" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-5">
+                    <h5>Videos Memorables</h5>
+                    <!-- Videos -->
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="col-md-4 mb-4">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L2DzSB7P65o" allowfullscreen></iframe>
+                                </div>                              
+                            </div>
+                            <p class="mt-2">River Plate se consagró campeón de la Supercopa Argentina 2018, en lo que fue una victoria significativa para el equipo dirigido por Marcelo Gallardo, especialmente porque se trataba de un Superclásico en una final. Este triunfo fue una de las piedras angulares del exitoso ciclo de Gallardo al frente de River Plate.
+                            </p>
+                            
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ORSN8UlgCks" allowfullscreen></iframe>
+                            </div>
+                            <p class="mt-2">River Plate ganó su cuarta Copa Libertadores en un partido histórico, no solo por la magnitud del rival y la instancia, sino también por las circunstancias extraordinarias en las que se disputó. Este triunfo fue especialmente significativo para los hinchas de River, consolidando aún más el legado de Marcelo Gallardo como uno de los entrenadores más exitosos en la historia del club. El partido en Madrid quedó marcado como uno de los más memorables en la historia de los Superclásicos.</p>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p4Q8YzDRxN0" allowfullscreen></iframe>
+                            </div>
+                            <p class="mt-2">Con esta victoria, River Plate eliminó a Boca Juniors y avanzó a la final de la Copa Sudamericana 2014, donde finalmente se consagró campeón tras vencer a Atlético Nacional de Medellín.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        
+        </section>
+        
+    </section>
+
+    <section id="jugadores" class="container my-5">
+        <h2 class="text-center mb-4">Jugadores Destacados</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/imagenes/di stefano.jpg" class="card-img-top" alt="Alfredo Di Stéfano">
+                    <div class="card-body">
+                        <h5 class="card-title">Alfredo Di Stéfano</h5>
+                        <p class="card-text">Uno de los jugadores más icónicos de la historia del fútbol, Di Stéfano inició su carrera en River Plate antes de convertirse en una leyenda en Real Madrid.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/imagenes/enzo.jpg" class="card-img-top" alt="Enzo Francescoli">
+                    <div class="card-body">
+                        <h5 class="card-title">Enzo Francescoli</h5>
+                        <p class="card-text">Apodado "El Príncipe", Francescoli es uno de los jugadores más queridos de la historia del club, famoso por su elegancia y talento en el medio campo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/imagenes/gallardo.jpg" class="card-img-top" alt="Marcelo Gallardo">
+                    <div class="card-body">
+                        <h5 class="card-title">Marcelo Gallardo</h5>
+                        <p class="card-text">Exjugador y entrenador, Gallardo ha llevado a River Plate a una de las eras más exitosas de su historia como director técnico, ganando múltiples títulos locales e internacionales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trofeos" class="container my-5">
+        <h2 class="text-center mb-4">Trofeos Ganados</h2>
+        <ul>
+            <li>38 Títulos de Primera División</li>
+            <li>4 Copas Libertadores</li>
+            <li>1 Copa Intercontinental</li>
+            <li>3 Copas Sudamericanas</li>
+            <li>1 Supercopa Sudamericana</li>
+            <li>13 Copas Nacionales</li>
+        </ul>
+    </section>
+
+    <!-- Galería de Imágenes -->
+<section id="galeria" class="container mt-5">
+    <h2 class="text-center">Galería de Imágenes</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/imagenes/hinchada.jpg" class="d-block w-50" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/imagenes/libertadores2018.jpg" class="d-block w-50" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/imagenes/monumental.jpg" class="d-block w-50" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+
+    <section id="ubicacion" class="container my-5">
+        <h2 class="text-center mb-4">Ubicación del Estadio</h2>
+        <p>El Estadio Monumental, oficialmente llamado Mas Monumental, se encuentra en el barrio de Núñez, en Buenos Aires, Argentina. Es el estadio más grande del país, con una capacidad de más de 80,000 espectadores. Además de ser el hogar de River Plate, el Monumental ha sido sede de importantes eventos, incluyendo la final de la Copa del Mundo de 1978.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6012934166523!2d-58.44966168477079!3d-34.54549998047114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7809f2b3d5d%3A0xd55c52c3526f2dc3!2sEstadio%20Monumental!5e0!3m2!1ses!2sar!4v1692044352723!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contacto" class="container my-5">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje:</label>
+                <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="bg-danger text-white text-center py-3">
+        <p>&copy; 2024 River Plate - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
